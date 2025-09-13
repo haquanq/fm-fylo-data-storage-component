@@ -1,0 +1,24 @@
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
+
+@import "./components/storage.css";
+
+@import "./utils/a11y.css";
+
+main {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/images/bg-mobile.png");
+    background-size: cover;
+
+    @media (--tablet) {
+        background-image: url("/assets/images/bg-desktop.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}

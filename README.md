@@ -2,42 +2,87 @@
 
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Challenge
+<p>
+  <a href="https://www.frontendmentor.io/solutions/accessible-mobile-first-pixel-perfect-w-html-and-css-iKHvNDZmx3">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/fylo-data-storage-component/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
 
-- No access to design files, attempt pixel-perfect
+## Table of Contents
 
-Users should be able to:
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
 
-- View the optimal layout for the site depending on their device's screen size
+## :sunrise: Project Overview
 
-### Solution
+### Challenge Requirements
 
-- Built with: `HTML` `CSS`
-- Mobile-first workflow
-- Accessible meter component
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-![](./.docs/design/desktop-design.jpg)
+### Status
 
-## Working in `fm-fylo-data-storage-component` repository
+Accessibility
 
-### Clone this project to your machine
+- [x] Responsive accross different screen sizes
+- [x] Interactive elements have clear focus indicator
 
-Make sure you have Git installed in your system, open new terminal, run the following command:
+### Preview
+
+![](./docs/design/desktop-design.jpg)
+
+## :stars: Tech Stack and Approach
+
+### Built With
+
+- **HTML5** – Semantic structure
+- **CSS Grid & Flexbox** – Layout
+- **PostCSS** – Nested rules, custom media queries, future CSS features, minification
+- **Stylelint** – CSS linting, code style consistency
+- **Vite** - Fast development server, production build and easy configuration
+
+### Approach
+
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+
+## :leaves: Local Development
+
+### Prerequisites
+
+Install the following:
+
+- Git (latest LTS recommended)
+- Node.js (latest LTS recommended)
+
+### Setup
 
 ```
-git clone https://github.com/haquanq/fm-fylo-data-storage-component.git
-```
-
-Then, run `npm install` to install all dependencies.
-
-```
+git clone https://github.com/haquanq-frontendmentor/fylo-data-storage-component.git
+cd fylo-data-storage-component
 npm install
 ```
 
-### Development workflow
-
-In terminal, run `npm run dev` to start development server:
+### Start Development Server
 
 ```
 npm run dev
 ```
+
+## :maple_leaf: Deployment
+
+Deployed to Github Pages via Github Actions (manually triggered).
